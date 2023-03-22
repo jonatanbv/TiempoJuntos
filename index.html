@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Juntos :3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #d2d9e4;
+            font-family: sans-serif;
+
+        }
+        section{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .reloj{
+            display: inline-block;
+            background: #d1dae3;
+            color: #71767f;
+            padding: 30px;
+            font-weight: bold;
+            font-size: 40px;
+            border-radius: 50px;
+            border: 4px solid #cad3dc;
+            box-shadow: -8px -8px 15px rgba(255,255,255,0.5),
+				10px 10px 10px rgba(0,0,0,0.1),
+				inset -8px -8px 15px rgba(255,255,255,0.5),
+				inset 10px 10px 10px rgba(0,0,0,0.1);
+
+        }
+        .texti{
+           
+            display: inline-block;
+            position: absolute;
+            background: #d1dae3;
+            color: #71767f;
+            padding: 30px;
+            top: 100px;
+            left: 25%;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 50px;
+            border: 4px solid #cad3dc;
+            box-shadow: -8px -8px 15px rgba(255,255,255,0.5),
+				10px 10px 10px rgba(0,0,0,0.1),
+				inset -8px -8px 15px rgba(255,255,255,0.5),
+				inset 10px 10px 10px rgba(0,0,0,0.1);
+
+        }
+        
+    </style>
+</head>
+<body>
+    <p class="texti">tiempo Juntos</p>
+    <section>
+        <div class="reloj">
+            <span id="tiempo">00  :  00  :  00</span>
+        </div>
+    </section>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
