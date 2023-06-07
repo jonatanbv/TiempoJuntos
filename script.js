@@ -7,7 +7,7 @@ let html=document.getElementById('tiempo');
             minutos = tiempo.getMinutes();
             segundos = tiempo.getSeconds();
             dias = tiempo.getDate();
-            dias = dias+57;
+            dias = dias+88;
 
             if (horas<10)
                 horas = "0"+horas;
